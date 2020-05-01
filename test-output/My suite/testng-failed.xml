@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite]">
+  <listeners>
+    <listener class-name="com.utils.InfluxDBListener"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.tests.SwagLabsTests">
+        <methods>
+          <include name="launchApp"/>
+          <include name="goToAboutPage"/>
+          <include name="sort"/>
+          <include name="selectAProduct"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.tests.SwagLabsTests -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [My suite] -->
