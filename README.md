@@ -9,6 +9,13 @@
 
 ![github-large](https://github.com/grajk88/grafana-selenium-integration-tests/blob/master/SS.png)
 
+## License
+
+This project is licensed under the MIT License - see [here](https://mit-license.org/) for details
+
+## Author
+Giridhar Rajkumar
+
 ## References:
 https://www.vinsguru.com/selenium-webdriver-real-time-test-metrics-using-grafana-influxdb/
 https://grafana.com/grafana/plugins/grafana-piechart-panel
